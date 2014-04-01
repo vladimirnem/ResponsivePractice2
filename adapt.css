@@ -1,0 +1,22 @@
+@media screen and (max-width: 485px) {
+	.wrapper {
+		width: 485px;
+	}
+	#emailinput {
+		display:none;
+	}
+	#btn-san {
+		display: block;
+	}
+	#block-info > div:nth-child(2) {
+		padding:0;
+	}
+	.block {
+		float: none;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.wrapper {
+		margin: 0 auto;
+	}
+}

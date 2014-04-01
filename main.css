@@ -1,0 +1,106 @@
+body {
+	font-family: sans-serif;
+	line-height: 1.3em;
+}
+.wrapper {
+	width: 980px;
+}
+#world-section header {
+	padding: 2% 3.061%;
+	overflow: hidden;
+	background-color: #222222;
+
+}
+#btn-san {
+	width: 60px;
+	height: 40px;
+	background: black url('sand.png') no-repeat;
+	background-position: center;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	display: none;
+	float: right;
+
+}
+#world-section header h1 {
+	font-size: 1.750em;
+	color:#969899;
+	font-family: sans-serif;
+	float: left;
+}
+#world-section header form {
+	float: right;
+}
+.input {
+	width: 150px;
+	height: 34px;
+	border-radius: 4px;
+	border: 1px solid gray;
+	font-size: 14px;
+	padding: 0px 12px;
+}
+.btn-sign {
+	width: 80px;
+	height: 34px;
+	background-color: #5CB75C;
+	border: 2px solid #5CB75C;
+	border-radius: 4px;
+	color: white;
+}
+#block-gray {
+	padding: 5.102% 3.061%;
+	background-color: #eeeeee;
+}
+#block-gray h1 {
+	padding:1.02% 0;
+	font-size: 4em;
+}
+#block-gray p {
+	padding: 3.02% 0;
+	color: #444444;
+}
+.btn-learn {
+	width: 100px;
+	height: 34px;
+	background-color: #428BCA;
+	color: white;
+	font-weight: bolder;
+	border: 1px solid #428BCA;
+	border-radius: 4px;
+}
+#block-info {
+	padding:0 3.061%;
+	overflow: hidden;
+}
+#block-info > div:nth-child(2) {
+	padding: 0 4.0%;
+}
+.block {
+	width:30.612%;
+	float: left;
+	margin: 5.102% 0;
+}
+.block h2 {
+	font-size: 1.3em;
+}
+.block p {
+	font-size: 0.8em;
+	margin: 1.02% 0;
+}
+#block-info button {
+margin: 4.081% 0;
+width: 100px;
+height: 30px;
+background-color: white;
+border-radius: 4px;
+border: 1px solid lightgray;
+color: #444444;
+}
+#world-section article {
+	border-bottom: 1px solid lightgray;
+}
+#world-section footer {
+	margin: 3.061% 0 10% 0;
+	color: #b2aeae;
+	padding-left: 3.061%;
+}
