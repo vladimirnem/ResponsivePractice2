@@ -1,9 +1,11 @@
 body {
-	font-family: sans-serif;
-	line-height: 1.3em;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1.428em;
 }
 .wrapper {
-	width: 980px;
+}
+#world-section {
+	width: 100%;
 }
 #world-section header {
 	padding: 2% 3.061%;
@@ -22,9 +24,13 @@ body {
 	float: right;
 
 }
+#world-section header {
+}
 #world-section header h1 {
 	font-size: 1.750em;
 	color:#969899;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
 	font-family: sans-serif;
 	float: left;
 }
@@ -52,21 +58,26 @@ body {
 	background-color: #eeeeee;
 }
 #block-gray h1 {
-	padding:1.02% 0;
-	font-size: 4em;
+	font-size: 63px;
 }
 #block-gray p {
 	padding: 3.02% 0;
 	color: #444444;
+	font-size: 1.313em;
+	font-weight: 200;
+	line-height: 1.428em;
+	margin-top: 5%;
 }
 .btn-learn {
-	width: 100px;
-	height: 34px;
+	width: 138px;
+	height: 43px;
 	background-color: #428BCA;
 	color: white;
 	font-weight: bolder;
-	border: 1px solid #428BCA;
-	border-radius: 4px;
+	border: 1px solid #307DBF;
+	border-radius: 6px;
+	font-size: 1em;
+	font-weight: 300;
 }
 #block-info {
 	padding:0 3.061%;
@@ -81,7 +92,8 @@ body {
 	margin: 5.102% 0;
 }
 .block h2 {
-	font-size: 1.3em;
+	font-size: 1.875em;
+	font-weight: 500;
 }
 .block p {
 	font-size: 0.8em;
