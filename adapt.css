@@ -16,23 +16,45 @@
   .wrapper {
   }
   #block-gray {
-    
+    padding: 10%;
   }
+  #block-gray h1 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  #block-gray p {
+    padding: 0;
+  }
+    #block-gray button {
+      margin-top: 20px;
+    }
   #block-info {
-    width: 376px;
+    width: 370px;
     margin-top: 40px;
+    line-height: 1.448em;
   }
   #block-info > div:nth-child(2) {
     padding:0;
+  }
+  #block-info > div:nth-child(3) {
+    border-bottom: 1px solid lightgray;
   }
   .block {
     float: left;
     clear: both;
     width: 100%;
+    margin-bottom: 0;
   }
+  .block h2 {
+    margin-bottom: 20px;
+  }
+
   #world-section header h1 {
     font-size: 1.125em;
 
+  }
+  #world-section article {
+  border-bottom:none;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -41,6 +63,7 @@
     margin: 0 auto;
   }
   #block-gray {
+
     margin-left: auto;
     margin-right: auto;
   }
